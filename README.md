@@ -1,74 +1,74 @@
 # AI Supervisor Final Project
 
-`AI Supervisor` is a project-oriented AI agent system for analyzing diagnostic and sales consultations.
+`AI Supervisor` — это проектная AI-агентная система для анализа диагностическо-продажных консультаций.
 
-This repository is a public final-project package prepared for homework submission. The production version of the project exists inside a private working contour, while this repo presents the MVP idea, architecture, submission texts, and public-facing documentation in a clean format.
+Этот репозиторий подготовлен как публичный пакет итогового проекта для сдачи домашнего задания. Рабочая production-версия проекта существует внутри приватного контура, а здесь собраны MVP-логика, архитектура, тексты для сдачи и публичная документация в аккуратном формате.
 
-## Project summary
+## Кратко о проекте
 
-The project solves a real applied problem: manual quality control of consultations is slow, fragmented, and difficult to scale.
+Проект решает реальную прикладную проблему: ручной контроль качества консультаций работает медленно, фрагментарно и плохо масштабируется.
 
-Without a structured AI layer, it is hard to:
+Без структурированного AI-слоя трудно:
 
-- review many consultations consistently;
-- detect repeated expert mistakes;
-- scale strong consultation patterns across the team;
-- build a learning loop from real calls;
-- return structured insights into a future CRM and management layer.
+- последовательно разбирать большое количество консультаций;
+- находить повторяющиеся ошибки экспертов;
+- масштабировать сильные паттерны консультаций на команду;
+- строить обучающий цикл на основе реальных встреч;
+- возвращать структурированные выводы в будущий CRM- и управленческий контур.
 
-`AI Supervisor` is designed as an operating layer that turns consultation materials into structured analytical artifacts.
+`AI Supervisor` задуман как operating layer, который превращает материалы консультаций в структурированные аналитические артефакты.
 
-## MVP logic
+## Логика MVP
 
-The MVP includes:
+В MVP входят:
 
-- a project-level agent routing layer;
-- consultation analysis logic;
-- structured review and reporting outputs;
-- reusable analytical formats;
-- a bridge to the future CRM Dream / Sales OS contour.
+- проектный слой маршрутизации агентных задач;
+- логика анализа консультаций;
+- структурированные review- и report-артефакты;
+- переиспользуемые аналитические форматы;
+- мост к будущему контуру `CRM Dream` / `Sales OS`.
 
-Core output chain:
+Базовая цепочка результата:
 
 `transcript -> processed transcript -> meeting review -> daily/team summary -> recommendations -> CRM-ready analytical data`
 
-## Why this is a real project
+## Почему это реальный проект
 
-This is not a toy demo and not just a prompt experiment.
+Это не учебная toy-demo и не просто один prompt.
 
-The project is connected to a broader practical contour:
+Проект связан с более широким рабочим контуром:
 
 - `CRM Dream`
-- `Digital ecosystem of the diagnostics department`
+- `Цифровая экосистема отдела диагностик`
 
-Within that system, `AI Supervisor` acts as the post-call operating layer for:
+Внутри этой системы `AI Supervisor` выступает как post-call operating layer для:
 
-- consultation review;
-- expert development;
-- team learning;
-- management analytics;
-- future `Consultation Copilot` logic.
+- разбора консультаций;
+- развития экспертов;
+- обучения команды;
+- управленческой аналитики;
+- будущей логики `Consultation Copilot`.
 
-## Repository contents
+## Содержимое репозитория
 
-| File | Purpose |
+| Файл | Назначение |
 |---|---|
-| `README.md` | Public project overview and final-project positioning. |
-| `PROJECT_DESCRIPTION_RU.md` | Short Russian description of the project. |
-| `AGENT_ARCHITECTURE.md` | High-level explanation of the agent system. |
-| `SUBMISSION_MESSAGE_RU.md` | Ready-to-send homework submission text in Russian. |
-| `DEFENSE_SCRIPT_RU.md` | Short spoken defense script in Russian. |
-| `FORMAL_COMPLIANCE_RU.md` | Honest compliance check against formal homework criteria. |
-| `SCREENSHOTS_CHECKLIST_RU.md` | Checklist for screenshots and final submission. |
-| `screenshots/README.md` | What screenshots to place into the repository. |
+| `README.md` | Публичное описание проекта и его позиционирование как итоговой работы. |
+| `PROJECT_DESCRIPTION_RU.md` | Краткое описание проекта на русском языке. |
+| `AGENT_ARCHITECTURE.md` | Объяснение логики агентной архитектуры. |
+| `SUBMISSION_MESSAGE_RU.md` | Готовый текст для отправки при сдаче домашнего задания. |
+| `DEFENSE_SCRIPT_RU.md` | Короткий устный скрипт защиты проекта. |
+| `FORMAL_COMPLIANCE_RU.md` | Честная проверка проекта по формальным критериям ДЗ. |
+| `SCREENSHOTS_CHECKLIST_RU.md` | Чек-лист скриншотов и финальной упаковки. |
+| `screenshots/README.md` | Инструкция, какие скриншоты положить в репозиторий. |
 
-## What is public and what is private
+## Что здесь публично, а что нет
 
-The production version of the project stays in a private working environment because it is connected to internal business materials and operational data.
+Production-версия проекта остается в приватной рабочей среде, потому что связана с внутренними бизнес-материалами и операционными данными.
 
-This public repository contains only the parts needed for final-project submission:
+В этом публичном репозитории лежат только те части, которые нужны для итоговой сдачи:
 
-- project positioning;
-- architecture explanation;
-- submission materials;
-- formal packaging for the homework.
+- позиционирование проекта;
+- объяснение архитектуры;
+- материалы для сдачи;
+- формальная упаковка под домашнее задание.

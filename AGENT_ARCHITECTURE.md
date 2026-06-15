@@ -1,70 +1,70 @@
-# AI Supervisor Agent Architecture
+# Архитектура агента AI Supervisor
 
-## Core idea
+## Базовая идея
 
-`AI Supervisor` is not a single prompt. It is a project contour with explicit agent responsibilities and structured outputs.
+`AI Supervisor` — это не один prompt, а проектный контур с явными ролями агентов и структурированными результатами.
 
-The system is designed to help analyze consultations, improve experts, and accumulate reusable business knowledge.
+Система создана для того, чтобы анализировать консультации, усиливать экспертов и накапливать переиспользуемые бизнес-знания.
 
-## Main functional blocks
+## Основные функциональные блоки
 
-### 1. Project routing layer
+### 1. Слой маршрутизации проекта
 
-The top layer determines:
+Верхний слой определяет:
 
-- what task is being solved;
-- which agent or logic block should handle it;
-- where the result should be stored;
-- which output format should be produced.
+- какая задача решается;
+- какой агент или логический блок должен ее обработать;
+- куда нужно сохранить результат;
+- в каком формате должен быть выдан итог.
 
-### 2. Consultation analysis layer
+### 2. Слой анализа консультаций
 
-This is the main value block of the project.
+Это главный ценностный блок проекта.
 
-It works with consultation transcripts and produces:
+Он работает с транскриптами консультаций и производит:
 
 - processed transcripts;
 - meeting reviews;
-- recommendations for the next step;
-- quality and methodology analysis;
-- expert growth observations.
+- рекомендации по следующему шагу;
+- анализ качества и соблюдения методологии;
+- наблюдения по росту эксперта.
 
-### 3. Reporting layer
+### 3. Слой отчетности
 
-This layer aggregates consultation-level findings into:
+Этот слой собирает выводы по отдельным консультациям в:
 
-- expert summaries;
-- team summaries;
+- summary по экспертам;
+- summary по команде;
 - dynamics reports;
-- structured analytical conclusions.
+- структурированные аналитические выводы.
 
-### 4. Knowledge and training layer
+### 4. Слой знаний и обучения
 
-This layer accumulates:
+Этот слой накапливает:
 
-- repeated mistakes;
-- strong consultation patterns;
-- reusable cases;
-- future roleplay or training materials.
+- повторяющиеся ошибки;
+- сильные паттерны консультаций;
+- переиспользуемые кейсы;
+- материалы для будущих roleplay и тренировок.
 
-### 5. CRM Dream bridge
+### 5. Мост к CRM Dream
 
-The system is intended not only as a review tool but also as a data supplier for the future full-cycle sales system.
+Система задумана не только как review-инструмент, но и как поставщик данных для будущей full-cycle sales system.
 
-It helps produce structured fields such as:
+Она помогает формировать структурированные поля, такие как:
 
-- client type;
-- need type;
-- refusal risk;
-- expert recommendation;
-- next step logic;
-- CRM-ready analytical labels.
+- тип клиента;
+- тип потребности;
+- риск отказа;
+- рекомендация эксперту;
+- логика следующего шага;
+- CRM-ready аналитические метки.
 
-## Why this architecture matters
+## Почему эта архитектура важна
 
-The project demonstrates a real applied agent workflow:
+Проект показывает реальный прикладной agent workflow:
 
-- not just “ask the model once”;
-- but organize a project around roles, artifacts, and reusable logic.
+- не просто “задать вопрос модели один раз”;
+- а организовать проект вокруг ролей, артефактов и переиспользуемой логики.
 
-That is why this project is suitable as a final homework artifact.
+Именно поэтому такой проект подходит как итоговый артефакт для домашнего задания.
