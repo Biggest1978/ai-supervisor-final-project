@@ -2,41 +2,46 @@
 
 `AI Supervisor` is a project-oriented AI agent system for analyzing diagnostic and sales consultations.
 
-This repository was prepared as a public final-project package for homework submission. The broader working project exists inside a private production contour, while this repo shows the project idea, MVP logic, agent architecture, and submission materials in a clean public format.
+This repository is a public final-project package prepared for homework submission. The production version of the project exists inside a private working contour, while this repo presents the MVP idea, architecture, submission texts, and public-facing documentation in a clean format.
 
-## What problem the project solves
+## Project summary
 
-Manual quality control of consultations is slow, fragmented, and hard to scale. A team lead can review only a limited number of calls, which makes it difficult to:
+The project solves a real applied problem: manual quality control of consultations is slow, fragmented, and difficult to scale.
 
+Without a structured AI layer, it is hard to:
+
+- review many consultations consistently;
 - detect repeated expert mistakes;
 - scale strong consultation patterns across the team;
-- build a stable learning loop from real calls;
-- return structured insights into the future CRM and management layer.
+- build a learning loop from real calls;
+- return structured insights into a future CRM and management layer.
 
-`AI Supervisor` helps solve this by turning raw consultation materials into structured analytical artifacts.
+`AI Supervisor` is designed as an operating layer that turns consultation materials into structured analytical artifacts.
 
-## What the MVP does
+## MVP logic
 
 The MVP includes:
 
 - a project-level agent routing layer;
-- specialized agents for consultation analysis and supporting tasks;
-- structured outputs based on real working logic;
-- reusable report and review formats;
+- consultation analysis logic;
+- structured review and reporting outputs;
+- reusable analytical formats;
 - a bridge to the future CRM Dream / Sales OS contour.
 
 Core output chain:
 
 `transcript -> processed transcript -> meeting review -> daily/team summary -> recommendations -> CRM-ready analytical data`
 
-## Project context
+## Why this is a real project
 
-`AI Supervisor` is part of a broader working contour:
+This is not a toy demo and not just a prompt experiment.
+
+The project is connected to a broader practical contour:
 
 - `CRM Dream`
 - `Digital ecosystem of the diagnostics department`
 
-Inside that contour, `AI Supervisor` acts as the post-call operating layer for:
+Within that system, `AI Supervisor` acts as the post-call operating layer for:
 
 - consultation review;
 - expert development;
@@ -48,12 +53,22 @@ Inside that contour, `AI Supervisor` acts as the post-call operating layer for:
 
 | File | Purpose |
 |---|---|
-| `README.md` | Public project overview. |
+| `README.md` | Public project overview and final-project positioning. |
+| `PROJECT_DESCRIPTION_RU.md` | Short Russian description of the project. |
 | `AGENT_ARCHITECTURE.md` | High-level explanation of the agent system. |
 | `SUBMISSION_MESSAGE_RU.md` | Ready-to-send homework submission text in Russian. |
 | `DEFENSE_SCRIPT_RU.md` | Short spoken defense script in Russian. |
-| `SCREENSHOTS_CHECKLIST_RU.md` | Checklist for screenshots and formal submission. |
+| `FORMAL_COMPLIANCE_RU.md` | Honest compliance check against formal homework criteria. |
+| `SCREENSHOTS_CHECKLIST_RU.md` | Checklist for screenshots and final submission. |
+| `screenshots/README.md` | What screenshots to place into the repository. |
 
-## Important note
+## What is public and what is private
 
-The production version of the project lives in a private working environment because it is connected to internal business materials. This public repository is a presentable homework package that documents the real MVP and its architecture without exposing private operational data.
+The production version of the project stays in a private working environment because it is connected to internal business materials and operational data.
+
+This public repository contains only the parts needed for final-project submission:
+
+- project positioning;
+- architecture explanation;
+- submission materials;
+- formal packaging for the homework.
